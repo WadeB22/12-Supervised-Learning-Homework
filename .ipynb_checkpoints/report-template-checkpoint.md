@@ -10,9 +10,6 @@ In this section, describe the analysis you completed for the machine learning mo
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
-I used various techniques to train and evaluate logistic regression models with imbalanced classes between healthy and high-risk loans. I was provided with, and utilized, a dataset of historical lending activity from a peer-to-peer lending services company to build a model to identify the creditworthiness of borrowers.  The historical data contained 75,036 "healthy" loans, compared to only 2,500 "at-risk/defaulted" loans. These were divided into training and testing sets, and logistic regression was used to predicts results based on the original data set.  Then the data was manipulated to create oversampled data (creating more "high risk" loans in the training data), and logistic regression was again utilized.
-
-
 ## Results
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
